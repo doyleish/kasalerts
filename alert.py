@@ -56,5 +56,5 @@ def alert(location=None):
     else:
         return "Please provide a valid location in /bulbs/<location>"
 
-
-run(host='0.0.0.0', port=5908)
+if __name__ == "__main__":
+    run(host='0.0.0.0', port=5908)
