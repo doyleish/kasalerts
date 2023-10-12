@@ -16,9 +16,9 @@ speeds = {
 max_blink = 30
 
 hsvs = {
-    "red": [0, 100, 100],
-    "green": [120, 100, 100],
-    "blue": [240, 100, 100]
+    "red": [0, 100, 15],
+    "green": [120, 100, 15],
+    "blue": [240, 100, 15]
 }
 
 bulb_params = ["blink_count","blink_speed","color"]
